@@ -1,0 +1,13 @@
+input.onGesture(Gesture.FreeFall, function () {
+    basic.showString("¡ME LASTIMAS CUIDADO!")
+    basic.showIcon(IconNames.Sad)
+    music.play(music.stringPlayable("C5 A B A B A G F ", 337), music.PlaybackMode.UntilDone)
+    music.setVolume(255)
+})
+music.play(music.createSoundExpression(WaveShape.Noise, 3263, 1, 255, 0, 2000, SoundExpressionEffect.None, InterpolationCurve.Curve), music.PlaybackMode.UntilDone)
+music.setVolume(255)
+led.setBrightness(255)
+led.enable(true)
+basic.showString("HOLA JAIDER")
+basic.clearScreen()
+basic.showIcon(IconNames.Happy)

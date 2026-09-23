@@ -1,0 +1,27 @@
+{
+    "name": "carro barredor",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-cutebotpro": "github:elecfreaks/pxt-cutebot-pro#v2.1.2",
+        "hackbit": "github:hackidsedu/pxt-hackbit#v1.0.12"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
